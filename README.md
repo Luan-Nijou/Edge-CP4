@@ -21,7 +21,7 @@
 
 :small_blue_diamond: [Componentes](#-componentes)
 
-:small_blue_diamond: [Descrição do funcionamento](#-descrição-do-funcionamento)  
+:small_blue_diamond: [Replicar](#-replicar)  
 
 :small_blue_diamond: [Linguagem Usada](#-linguagem-usada)
 
@@ -77,10 +77,10 @@ Para replicar ou/e modificar do seu modo:
  2. Possuir o hardware, que será: Um ESP32, um LDR, Cabos jumpers, 3 LED's e opcional: uma protoboard(para melhor visualização e fixação dos itens).
 
  3. Para configuração do IDE, usar como BOARD o ESP32 DEV MODULE(Basta entrar em TOOLS -> BOARD -> ESP32 -> ESP32 DEV MODULE, se não tiver, baixar a biblioteca do esp32), colocar na PORT a que funcionar, e instalar as bibliotecas necessárias: 
->LiquidCrystal I2C
->DHT sensor library
->Adafruit Unified Sensor
->ESP32
+-LiquidCrystal I2C
+-DHT sensor library
+-Adafruit Unified Sensor
+-ESP32
  
  4. Para as ligações do hardware, sugiro observar e montar de acordo com esse site [site](https://wokwi.com/projects/377032518166226945). OBS: O LDR pode ser usado sozinho, apenas ligando um resistor no GND e em uma das pernas do LDR, e colocar um fio na outra perna e ligar no D4 do ESP32; Enquanto o DHT11 e o DHT22 são ligados da mesma forma.
 
