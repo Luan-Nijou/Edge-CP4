@@ -1,4 +1,21 @@
 /*
+RM550301 - Pedro Henrique Alves Guariente
+
+RM551462 - David de Medeiros Pacheco Junior
+
+RM552112 - Kaique Maia Reis Silva
+
+RM98067 - Orlando Akio Morii Cardoso
+
+RM98920 - Luan Nijou
+
+RM98501 - Kauê Pastori Teixeira 
+
+*/
+
+
+
+/*
 Sites: 
 https://www.blogdarobotica.com/2022/12/23/como-utilizar-o-display-lcd-16x02-com-modulo-i2c-na-esp32/
 
