@@ -33,7 +33,7 @@
 
 ## 📁 Acesso ao projeto
 
- [Acesso do código fonte da simulação.](https://github.com/Luan-Nijou/GS-Edge/blob/main/Code)
+ [Acesso do código fonte da simulação.](https://github.com/Luan-Nijou/Edge-CP4/blob/main/Code.ino)
 
 ## 📝 Descrição do projeto 
 
