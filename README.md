@@ -76,7 +76,7 @@ Para replicar ou/e modificar do seu modo:
 
  2. Possuir o hardware, que será: Um ESP32, um LDR, Cabos jumpers, 3 LED's e opcional: uma protoboard(para melhor visualização e fixação dos itens).
 
- 3. Para configuração do IDE e das ligações do hardware, sugiro seguir os passos desse [site](https://www.electronicwings.com/esp32/rfid-rc522-interfacing-with-esp32).
+ 3. Para configuração do IDE e das ligações do hardware, sugiro seguir os passos desse [site](https://wokwi.com/projects/377032518166226945).
 
  4. Depois, faça as configurações principais do código, como: Colocar o nome e a senha corretamente, e o token do device que foi criado na tago, e montar suas actions e dashboards.
 <p/>
