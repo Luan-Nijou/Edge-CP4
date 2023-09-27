@@ -19,7 +19,7 @@
 
 :small_blue_diamond: [Layout da Arquitetura](#-layout-da-arquitetura)
 
-:small_blue_diamond: [Componentes](#%EF%B8%8F-componentes)
+:small_blue_diamond: [Componentes](#-componentes)
 
 :small_blue_diamond: [Replicar](#-replicar)  
 
