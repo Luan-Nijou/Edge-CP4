@@ -41,9 +41,12 @@
 
 ## 🧰 Layout da Arquitetura 
 
+**Fisíco**
+![Sistema Vinharia arquitetura](https://github.com/Luan-Nijou/Edge-CP4/assets/126830016/4469cca7-a048-482d-85e8-f003b9aa4974)
 
-![Sistema Vinharia arquitetura](https://github.com/Luan-Nijou/Edge-CP4/assets/126830016/5dfd4aba-7882-405a-8250-dfca45163d67)
+**Internet**
 
+![Internet dashboard vinharia](https://github.com/Luan-Nijou/Edge-CP4/assets/126830016/3c7c3833-01d4-4010-a75c-89a93effb916)
 
 ## ⚙️ Componentes
 
@@ -55,6 +58,9 @@
 <p/>
 <p align="justify">
 > DHT11 - O DHT11 é um sensor de temperatura e umidade digital muito utilizado em projetos de eletrônica e automação.
+<p/>
+<p align="justify">
+> LCD - As telas LCD desempenham um papel importante na interface homem-máquina (HMI) para dispositivos conectados.São usados para exibir informações relevantes ao usuário, como dados de sensores, status de dispositivos e mensagens.
 <p/>
   
 
