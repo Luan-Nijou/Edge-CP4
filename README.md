@@ -76,9 +76,15 @@ Para replicar ou/e modificar do seu modo:
 
  2. Possuir o hardware, que será: Um ESP32, um LDR, Cabos jumpers, 3 LED's e opcional: uma protoboard(para melhor visualização e fixação dos itens).
 
- 3. Para configuração do IDE e das ligações do hardware, sugiro seguir os passos desse [site](https://wokwi.com/projects/377032518166226945).
+ 3. Para configuração do IDE, usar como BOARD o ESP32 DEV MODULE(Basta entrar em TOOLS -> BOARD -> ESP32 -> ESP32 DEV MODULE, se não tiver, baixar a biblioteca do esp32), colocar na PORT a que funcionar, e instalar as bibliotecas necessárias: 
+>LiquidCrystal I2C
+>DHT sensor library
+>Adafruit Unified Sensor
+>ESP32
+ 
+ 4. Para as ligações do hardware, sugiro observar e montar de acordo com esse site [site](https://wokwi.com/projects/377032518166226945). OBS: O LDR pode ser usado sozinho, apenas ligando um resistor no GND e em uma das pernas do LDR, e colocar um fio na outra perna e ligar no D4 do ESP32; Enquanto o DHT11 e o DHT22 são ligados da mesma forma.
 
- 4. Depois, faça as configurações principais do código, como: Colocar o nome e a senha corretamente, e o token do device que foi criado na tago, e montar suas actions e dashboards.
+ 5. Depois, faça as configurações principais do código, como: Colocar o nome e a senha corretamente, e o token do device que foi criado na tago, e montar suas actions e dashboards.
 <p/>
 
 ## 💻 Linguagem Usada
@@ -89,8 +95,13 @@ Para replicar ou/e modificar do seu modo:
 ## 💻 Desenvolvedores 
 
 
-| [<img src="https://i.imgur.com/ZIv3QYz.jpg" width=150 height= 150><br><sub>Luan Nijou</sub>](https://github.com/Luan-Nijou) | [<img src="https://i.imgur.com/p8nq4Xu.jpg" width=150 height= 150><br><sub>Pedro Henrique Alves Guariente</sub>](https://github.com/predowss) | [<img src="https://i.imgur.com/qiQoCcq.jpg" width=150 height= 150><br><sub>David de Medeiros Pacheco Junior</sub>](https://github.com/daviddpacheco) | [<img src="https://i.imgur.com/noeh6xz.jpg" width=150 height= 150><br><sub>Kaique Maia Reis Silva</sub>](https://github.com/kaiquemaiaa) | [<img src="" width=150 height= 150><br><sub>Orlando Akio Morii Cardoso</sub>](https://github.com/AkioMorii) |
-| :---: | :---: | :---: | :---: | :---: |
+| [<img src="https://i.imgur.com/ZIv3QYz.jpg" width=150 height= 150><br><sub>Luan Nijou</sub>](https://github.com/Luan-Nijou) | [<img src="https://i.imgur.com/p8nq4Xu.jpg" width=150 height= 150><br><sub>Pedro Henrique Alves Guariente</sub>](https://github.com/predowss) | [<img src="https://i.imgur.com/qiQoCcq.jpg" width=150 height= 150><br><sub>David de Medeiros Pacheco Junior</sub>](https://github.com/daviddpacheco) | [<img src="https://i.imgur.com/noeh6xz.jpg" width=150 height= 150><br><sub>Kaique Maia Reis Silva</sub>](https://github.com/kaiquemaiaa) | [<img src="" width=150 height= 150><br><sub>Orlando Akio Morii Cardoso</sub>](https://github.com/AkioMorii) | 
+| :---: | :---: | :---: | :---: | :---: | 
+
+
+[<img src="https://github.com/Luan-Nijou/Edge-CP4/assets/126830016/585d5c6d-5592-4578-8787-5011106120a5" width=150 height= 150><br><sub>Kauê Pastori Teixeira</sub>](https://github.com/Kautx) 
+| :---: 
+
 
 
 ## Licença 
