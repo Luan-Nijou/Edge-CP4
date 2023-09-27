@@ -43,8 +43,9 @@
 
 ## 🧰 Layout da Arquitetura 
 
+
 **Fisíco**
-![Sistema Vinharia arquitetura](https://github.com/Luan-Nijou/Edge-CP4/assets/126830016/4469cca7-a048-482d-85e8-f003b9aa4974)
+![Sistema Vinharia arquitetura](https://github.com/Luan-Nijou/Edge-CP4/assets/126830016/8d56f3d3-52ee-466f-9ecb-6359155e6c58)
 
 **Internet**
 
