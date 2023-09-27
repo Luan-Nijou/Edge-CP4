@@ -1,10 +1,13 @@
 /*
-
+Sites: 
 https://www.blogdarobotica.com/2022/12/23/como-utilizar-o-display-lcd-16x02-com-modulo-i2c-na-esp32/
-https://wokwi.com/projects/377032518166226945
 
 */
+/*
+library:
+LiquidCrystal_I2C.h
 
+*/
 
 #include "Arduino.h" // Inclui a biblioteca principal do Arduino
 #include "WiFi.h" // Inclui a biblioteca para comunicação WiFi
