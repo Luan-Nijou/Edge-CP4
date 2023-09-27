@@ -1,5 +1,5 @@
 <p align="center" >
- <img width=30% height= 30% src="https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/03bc77d0-0f2f-4920-873d-34258c75ff6b"/>
+ <img  src="https://github.com/Luan-Nijou/Edge-CP4/assets/126830016/9388d8fb-3b04-4aa3-b0e4-e833a1d74c1a"/>
 </p>
 <p align="center">
  
@@ -9,22 +9,17 @@
 </p>
 
 
-
 ### Tópicos 
 
 :small_blue_diamond: [Acesso ao projeto](#-acesso-ao-projeto)
 
 :small_blue_diamond: [Descrição do projeto](#-descrição-do-projeto)
 
-:small_blue_diamond: [Layout básico de Arquitetura](#-layout-básico-de-arquitetura)
+:small_blue_diamond: [Layout da Arquitetura](#-layout-da-arquitetura)
 
 :small_blue_diamond: [Descrição da Arquitetura](#-descrição-da-arquitetura)
 
 :small_blue_diamond: [Descrição do funcionamento](#-descrição-do-funcionamento)  
-
-:small_blue_diamond: [Layout básico da Simulação](#-layout-básico-da-simulação)
-
-:small_blue_diamond: [Descrição da Simulação](#-descrição-da-simulação)
 
 :small_blue_diamond: [Linguagem Usada](#-linguagem-usada)
 
@@ -41,83 +36,40 @@
 ## 📝 Descrição do projeto 
 
 <p align="justify">
-O PassBy um projeto pioneiro de gestão de estacionamentos,fundamentado na tecnologia de Comunicação de Campo Próximo (NFC). Este empreendimento destina-se a enfrentar de maneira abrangente as crescentes inquietações
-relacionadas à sustentabilidade e eficiência nas configurações urbanas. Além de modernizar os sistemas tradicionais de estacionamento, nossa abordagem visa catalisar a 
-conscientização sobre a importância de priorizar a preservação ambiental em todas as esferas da sociedade 
+  Desenvolver um sistema de monitoramento remoto para a Vinheria, com o intuito de proporcionar aos proprietários acesso contínuo e em tempo real aos dados dos sensores de luminosidade, temperatura e umidade. A implementação desse sistema visa oferecer uma solução mais eficiente e conveniente em comparação ao modelo anterior.
 </p> 
 
-## 🧰 Layout básico de Arquitetura 
+## 🧰 Layout da Arquitetura 
 
 
-![PassBy arquitetura](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/42ee9ff0-d52b-4928-8a28-a1a14114a040)
+![Sistema Vinharia arquitetura](https://github.com/Luan-Nijou/Edge-CP4/assets/126830016/5dfd4aba-7882-405a-8250-dfca45163d67)
 
 
+## ⚙️ Componentes
 
-## 📋 Descrição da Arquitetura 
-
-**Instância 1 - Dispositivos IoT e Interação NFC-RFID:**
 <p align="justify">
- Nesta primeira instância, o projeto envolve a conexão de todos os ambientes à internet. Os dispositivos IoT desempenham um papel fundamental na troca de informações. Um dispositivo móvel equipado com um chip NFC é usado para estabelecer comunicação com um totem. Este totem possui uma placa ESP32 e um sensor RFID para capturar as informações trocadas e enviá-las para o banco de dados central. Essa interação permite que informações essenciais sejam compartilhadas de forma eficiente e segura.
- <p/>
-  
-**Instância 2 - Aplicativo de Gerenciamento:**
-<p align="justify">
- Na segunda instância, o aplicativo é o ponto de controle central. Ele está conectado a informações estáticas, como os IDs dos carros, e também oferece monitoramento em tempo real da localização dos carros. Além disso, o aplicativo é integrado a um sistema de pagamento, fornecendo aos usuários a conveniência de uma carteira virtual para realizar transações de pagamento. Esta parte do projeto torna a interação dos usuários com o sistema mais intuitiva e funcional.
- <p/>
-  
- **Instância 3 - Ambiente de Servidores e Segurança:**
-<p align="justify">
- A terceira instância concentra-se no ambiente dos servidores, que é o cérebro do sistema. Aqui, todos os dados são processados, armazenados e gerenciados de maneira segura. Isso inclui o registro de transações de pagamento e a manutenção de registros cruciais. A segurança é uma prioridade nesta instância, garantindo que todas as operações sejam protegidas e os dados permaneçam confidenciais.
+> ESP32 - O ESP32 é um microcontrolador de baixo custo e baixo consumo de energia desenvolvido pela Espressif Systems. Ele é amplamente utilizado na indústria de IoT (Internet das Coisas) devido às suas capacidades avançadas de conectividade e flexibilidade. 
 <p/>
 <p align="justify">
-Essas melhorias nas descrições destacam a importância de cada instância do projeto e como elas se conectam para criar um sistema abrangente de gerenciamento de informações, monitoramento e pagamento.
+> LDR - O LDR, ou "Light Dependent Resistor", é um componente eletrônico sensível à luz. Também conhecido como fotoresistor, sua resistência elétrica varia de acordo com a intensidade da luz incidente sobre ele. Quando exposto à luz, a resistência do LDR diminui, e quando em ambiente escuro, sua resistência aumenta.
 <p/>
-
-## 📋 Descrição do funcionamento
-
-**Acesso ao Sistema:**
 <p align="justify">
-Para acessar o sistema completo, é necessário ter o aplicativo instalado em seu dispositivo móvel e possuir um chip NFC associado ao dispositivo.
- <p/>
-  
-**Configuração do Aplicativo:**
-<p align="justify">
-Antes de usar o sistema, é necessário configurar o aplicativo. Isso inclui realizar um cadastro no aplicativo, onde você fornecerá suas informações pessoais e receberá uma identificação de registro exclusiva, gerada aleatoriamente.
- <p/>
-
-  **Registro Automático no Totem:**
-<p align="justify">
-Uma vez que o aplicativo esteja configurado e você tenha sua identificação de registro, basta aproximar seu celular do totem local. O totem está equipado com tecnologia NFC que permite a troca de informações de forma segura e instantânea. Quando você passa o celular no totem, ele automaticamente registra sua presença no servidor do estacionamento.
- <p/>
-  
-**Monitoramento e Cálculo de Pagamento:**
-<p align="justify">
-Após o registro no servidor, o aplicativo exibirá em tempo real o período de tempo que você está ocupando o espaço de estacionamento. Além disso, o sistema calcula automaticamente o valor a ser pago com base no tempo que você passou no local, conforme as tarifas estabelecidas.
-Essas descrições refinadas destacam a simplicidade e a eficiência do processo, desde a configuração inicial até o uso prático do sistema para registro de presença e cálculo de pagamento em tempo real.
- <p/>
-  
-## 🧰 Layout básico da Simulação
-
-![LayoutSimulação](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/e6ab3583-d07f-4397-bf46-fd9e6c17b635)
-
-## 📋 Descrição da Simulação
-
-<p align="justify">
-Com o sistema de leitor funcionando e o ESP32 conectado ao Wi-Fi, transmitindo informações para o site, a plataforma terá a função de exibir em 3 display, 1º se foi confirmado o ID(true para ID condizente), 2º mostrando o ID, e o 3º se o ID pode passar(true para acesso permitido)
+> DHT11 - O DHT11 é um sensor de temperatura e umidade digital muito utilizado em projetos de eletrônica e automação.
 <p/>
- 
- 
-![tago 2](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/5f0505cd-3d13-4ffc-9ae7-2e4782a8d128)
+  
 
-## Replicar 
+## 📝 Replicar 
 
 <p align="justify">
 Para replicar ou/e modificar do seu modo:
 
- 1. Possuir em seu dispositivo o [Arduino IDE](https://www.arduino.cc/en/software) e uma conta na [tago.io](https://tago.io),e [aqui um video](https://www.youtube.com/watch?v=leKi6Tt3DXI) para enteder o basico da tago.
- 2. Possuir o hardware, que será: Um ESP32, Um kit RFid Rc522, Cabos jumpers, e opcional: uma protoboard(para melhor fixação dos itens).
+ 1. Possuir em seu dispositivo o [Arduino IDE](https://www.arduino.cc/en/software) e uma conta na [tago.io](https://tago.io), e [aqui um video](https://www.youtube.com/watch?v=leKi6Tt3DXI) para enteder o basico da tago.
+
+ 2. Possuir o hardware, que será: Um ESP32, um LDR, Cabos jumpers, e opcional: uma protoboard(para melhor visualização e fixação dos itens).
+
  3. Para configuração do IDE e das ligações do hardware, sugiro seguir os passos desse [site](https://www.electronicwings.com/esp32/rfid-rc522-interfacing-with-esp32).
- 4. Depois, faça as configurações principais do código, como: Colocar o nome e a senha corretamente, e o token do device que foi criado na tago.
+
+ 4. Depois, faça as configurações principais do código, como: Colocar o nome e a senha corretamente, e o token do device que foi criado na tago, e montar suas actions e dashboards.
 <p/>
 
 ## 💻 Linguagem Usada
@@ -136,4 +88,4 @@ Para replicar ou/e modificar do seu modo:
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: 2023 - Vinharia
+Copyright :copyright: 2023 - VinhariaAgnelo
