@@ -19,7 +19,7 @@
 
 :small_blue_diamond: [Layout da Arquitetura](#-layout-da-arquitetura)
 
-:small_blue_diamond: [Descrição da Arquitetura](#-descrição-da-arquitetura)
+:small_blue_diamond: [Componentes](#-componentes)
 
 :small_blue_diamond: [Descrição do funcionamento](#-descrição-do-funcionamento)  
 
