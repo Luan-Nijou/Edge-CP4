@@ -99,10 +99,6 @@ Para replicar ou/e modificar do seu modo:
 | :---: | :---: | :---: | :---: | :---: | 
 
 
-[<img src="https://github.com/Luan-Nijou/Edge-CP4/assets/126830016/585d5c6d-5592-4578-8787-5011106120a5" width=150 height= 150><br><sub>Kauê Pastori Teixeira</sub>](https://github.com/Kautx) 
-| :---: 
-
-
 
 ## Licença 
 
