@@ -9,8 +9,6 @@ RM98067 - Orlando Akio Morii Cardoso
 
 RM98920 - Luan Nijou
 
-RM98501 - Kauê Pastori Teixeira 
-
 */
 
 
